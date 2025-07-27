@@ -1,0 +1,15 @@
+{
+  "name": "Compare Viz Extension",
+  "description": "A Qlik Sense extension for comparing visualizations",
+  "type": "visualization",
+  "version": "1.0.0",
+  "author": "Extension Developer",
+  "icon": "extension",
+  "preview": "preview.png",
+  "keywords": "qlik-sense, visualization, compare",
+  "license": "MIT",
+  "repository": "",
+  "dependencies": {
+    "qlik-sense": ">=3.0.x"
+  }
+} 

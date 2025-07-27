@@ -1,0 +1,38 @@
+{
+  "name": "qlik-extension-compare-viz",
+  "version": "1.0.0",
+  "description": "A Qlik Sense extension for comparing visualizations",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "nebula build",
+    "dev": "nebula serve",
+    "sense": "nebula sense",
+    "test": "playwright test",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": [
+    "qlik",
+    "extension",
+    "nebula",
+    "visualization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nebula.js/cli": "^4.0.0",
+    "@playwright/test": "^1.40.0",
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@nebula.js/stardust": "^4.0.0"
+  },
+  "files": [
+    "dist/",
+    "qlik-extension-compare-viz.js",
+    "qlik-extension-compare-viz.qext"
+  ]
+} 
